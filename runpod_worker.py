@@ -1,4 +1,6 @@
-import runpod
-from main import handler
+from runpod.serverless import start
 
-runpod.serverless.start({"handler": handler})
+def handler(event):
+    return {"message": "CPU endpoint OK"}
+
+start({"handler": handler})
