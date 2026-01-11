@@ -1,2 +1,1 @@
 runpod==1.7.0
-runpod-serverless==1.7.0
