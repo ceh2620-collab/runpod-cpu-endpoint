@@ -5,7 +5,7 @@
     "category": "language",
     "config": {
         "runsOn": "CPU",
-        "entrypoint": "python main.py",
+        "entrypoint": "python -m runpod",
         "containerDiskInGb": 5
     }
 }
