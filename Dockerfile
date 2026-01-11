@@ -7,4 +7,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["python", "runpod_worker.py"]
+ENTRYPOINT ["python", "runpod_worker.py"]
