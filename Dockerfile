@@ -8,3 +8,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 ENTRYPOINT ["python", "runpod_worker.py"]
+# Force rebuild
+RUN echo "rebuild_$(date)" > /tmp/rebuild_tag
