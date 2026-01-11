@@ -1,0 +1,11 @@
+{
+  "title": "cpu-endpoint",
+  "description": "CPU Serverless Endpoint",
+  "type": "serverless",
+  "category": "language",
+  "config": {
+    "runsOn": "CPU",
+    "entrypoint": "python runpod_worker.py",
+    "containerDiskInGb": 5
+  }
+}
